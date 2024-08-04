@@ -1,53 +1,5 @@
-.main{
-    display: flex;
-    width: 100%;
-    height:100%;
-    /* border: 2px solid black; */
 
-}
-
-.page_section1{
-    width: 600px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    /* border: 2px solid red; */
-    margin: 20px;
-    margin-right: 50px;
-}
-
-.section1{
-    background-color: black;
-    width: 30%;
-    color: azure;
-
-}
-
-#portfolio{
-    text-align: center;
-    justify-content: center;
-    justify-items: center ;
-
-}
-
-.section2{
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(78, 75, 75)
-
-}
-
-.links{
-    display: flex;
-    flex-direction: row;
-    /* margin-top: 20px; */
-    padding: 20px;
-
-}
-
-
-
+/* For desktops and laptops */
 @media (min-width: 1024px) {
     body {
         font-size: 16px;
@@ -56,4 +8,179 @@
         width: 80%;
         margin: auto;
     }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 90%;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+
+.Flex.container{
+    display: flex;
+    flex-direction: column;
+    /* height: 800px;
+    width: 80%; */
+    /* margin: 500px; */
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    /* height: 50%;
+    border: 2px solid black; */
+    margin: 20px;
+
+    background-color: beige;
+    
+}
+
+.header-links{
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+    margin: 20px;
+    margin-bottom: 0px;
+
+}
+
+/* .logo{
+    margin-right: auto;
+    padding-left: 20px;
+
+} */
+
+
+ 
+.home{
+    margin-right: 50px;
+}
+
+.about{
+    margin-right: 50px;
+
+}
+.work{
+    margin-right: 50px;
+}
+
+.blog{
+    margin-right: 50px;
+    
+}
+
+.contact{
+    margin-right: 20px;
+}
+
+.container1-content-image{
+    display: flex;
+    padding-left: 20px;
+    margin-top: 0px;
+
+}
+.container1-image{
+    margin-left: 250px;
+}
+.container1-content{
+    padding-top: 70px;
+}
+
+.holla{
+    margin-top: 60px;
+}
+
+.about-section{
+    margin: 20px;
+    padding-top: 15px;
+}
+#aboutMe{
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    /* height: 50%;
+    border: 2px solid black; */
+    margin: 20px;
+    /* background-color: beige; */
+}
+
+.container2-links{
+    display: flex;
+    justify-content: center;
+    margin-top:25px;
+
+}
+
+#Projects{
+    text-align: center;
+}
+/* .services{
+    margin-right: 20px;
+}
+.design{
+    margin-right: 20px;
+
+}
+.stylish{
+
+    margin-right: 20px;
+}
+.creatives{
+    margin-right: 20px;
+
+} */
+
+.images{
+    display: flex;
+    flex-direction: column;
+}
+
+.images1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    
+}
+
+.images2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    /* height: 50%;
+    border: 2px solid black;  */
+    margin-right: 20px;
+    margin-top: 0px;
+    background-color: grey;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
 }
