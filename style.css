@@ -174,14 +174,20 @@
 .footer{
     display: flex;
     flex-direction: row;
-    /* height: 50%;
-    border: 2px solid black;  */
+    height: 20%;
+    /* border: 2px solid black;  */
     margin-right: 20px;
     margin-top: 0px;
     background-color: grey;
     color: white;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+    /* justify-items: center; */
 
 
+}
+
+.group{
+    margin: 15px;
 }
