@@ -3,6 +3,8 @@
 @media (min-width: 1024px) {
     body {
         font-size: 16px;
+        font-family:Helvetica;
+        font-size: 1.5em;
 
     }
     .container {
@@ -96,7 +98,8 @@
 
 }
 .container1-image{
-    margin-left: 250px;
+    margin-left: 0px;
+
 }
 .container1-content{
     padding-top: 70px;
