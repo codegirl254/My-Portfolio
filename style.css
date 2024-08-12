@@ -112,9 +112,11 @@
 .about-section{
     margin: 20px;
     padding-top: 15px;
+    margin-top: 0px;
 }
 #aboutMe{
     text-align: center;
+    margin-top: 0px;
 }
 
 .container2{
